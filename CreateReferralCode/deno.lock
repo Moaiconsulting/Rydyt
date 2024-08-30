@@ -1,0 +1,40 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:node-appwrite@^12.0.1": "npm:node-appwrite@12.0.1",
+      "npm:prettier@^3.2.5": "npm:prettier@3.3.3"
+    },
+    "npm": {
+      "@fastify/busboy@2.1.1": {
+        "integrity": "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==",
+        "dependencies": {}
+      },
+      "node-appwrite@12.0.1": {
+        "integrity": "sha512-2YHjh6gKe5oyFG4E4bnIz7zPEU456PYE6vCJerqGEgXD5xS5B4ToFFEvtYM6Vk3Q7XSWMqXo2sQJIXkT+MSD7A==",
+        "dependencies": {
+          "undici": "undici@5.28.4"
+        }
+      },
+      "prettier@3.3.3": {
+        "integrity": "sha512-i2tDNA0O5IrMO757lfrdQZCc2jPNDVntV0m/+4whiDfWaTKfMNgR7Qz0NAeGz/nRqF4m5/6CLzbP4/liHt12Ew==",
+        "dependencies": {}
+      },
+      "undici@5.28.4": {
+        "integrity": "sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==",
+        "dependencies": {
+          "@fastify/busboy": "@fastify/busboy@2.1.1"
+        }
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "packageJson": {
+      "dependencies": [
+        "npm:node-appwrite@^12.0.1",
+        "npm:prettier@^3.2.5"
+      ]
+    }
+  }
+}
